@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cc.ccjni.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.552" />
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="368dp"-->
+            <!--android:layout_height="495dp"-->
+            <!--android:orientation="vertical"-->
+            <!--tools:layout_editor_absoluteX="8dp"-->
+            <!--tools:layout_editor_absoluteY="8dp">-->
+
+            <!--<Button-->
+                <!--android:id="@+id/string"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:onClick="string"-->
+                <!--android:text="string" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/intsum"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:onClick="intsum"-->
+                <!--android:text="intsum" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/Array"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:onClick="intsum"-->
+                <!--android:text="Array"-->
+                <!--tools:layout_editor_absoluteX="23dp"-->
+                <!--tools:layout_editor_absoluteY="85dp" />-->
+
+            <!--<Button-->
+                <!--android:id="@+id/secreat"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:onClick="secreat"-->
+                <!--android:text="secreat"-->
+                <!--tools:layout_editor_absoluteX="-36dp"-->
+                <!--tools:layout_editor_absoluteY="57dp" />-->
+
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+</RelativeLayout>
